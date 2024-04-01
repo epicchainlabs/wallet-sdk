@@ -1,0 +1,203 @@
+{
+  "name": "@cityofzion/wallet-connect-sdk-core",
+  "entries": [
+    {
+      "version": "3.2.0",
+      "tag": "@cityofzion/wallet-connect-sdk-core_v3.2.0",
+      "date": "Mon, 27 Nov 2023 17:52:40 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "New way to initialize the SDK"
+          }
+        ]
+      }
+    },
+    {
+      "version": "3.1.0",
+      "tag": "@cityofzion/wallet-connect-sdk-core_v3.1.0",
+      "date": "Mon, 06 Nov 2023 13:13:50 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "New method to allow signing a transaction multiple times by different wallets before invoking it"
+          },
+          {
+            "comment": "A new method has been added to calculate the fee for a request"
+          },
+          {
+            "comment": "New event emitter has been added to emit changes to the session"
+          }
+        ]
+      }
+    },
+    {
+      "version": "3.0.0",
+      "tag": "@cityofzion/wallet-connect-sdk-core_v3.0.0",
+      "date": "Thu, 28 Sep 2023 13:38:24 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Increase compatibility version, increase neo3-invoker version and improve the docs"
+          },
+          {
+            "comment": "Compatible with Neo3Invoker"
+          },
+          {
+            "comment": "Changes on `connect` method signature, the `methods` argument is now mandatory"
+          }
+        ],
+        "patch": [
+          {
+            "comment": "Adjust version number with the other packages"
+          },
+          {
+            "comment": "Add types to constants and add a new constant to auto accept methods "
+          },
+          {
+            "comment": "update WcSdk with new neo3-signer/neon-signer for: new signMessage version to allow signing without salt"
+          },
+          {
+            "comment": "Downgrade neonjs to fix build problems in react-native"
+          },
+          {
+            "comment": "Adjusting version"
+          },
+          {
+            "comment": "Adjust version number with the other packages"
+          },
+          {
+            "comment": "Adjust version number with the other packages"
+          },
+          {
+            "comment": "Fix duplicated wccv in connection uri"
+          },
+          {
+            "comment": "Adjust version number with the other packages"
+          },
+          {
+            "comment": "New encryption methods: The encrypt, decrypt, and encrypt From Array methods have been implemented"
+          },
+          {
+            "comment": "Add encrypt, decrypt and decryptFromArray on method list"
+          },
+          {
+            "comment": "Consume new version of neon-dappkit"
+          },
+          {
+            "comment": "Add options to change the fees on invokeFunction"
+          },
+          {
+            "comment": "allow an optional scriptHash to be used to sign"
+          },
+          {
+            "comment": "compatible with neo3-signer"
+          },
+          {
+            "comment": "Bump walletconnect library version"
+          }
+        ],
+        "major": [
+          {
+            "comment": "Using the new version of WalletConnect library, beta 26"
+          },
+          {
+            "comment": "Using the new version of WalletConnect library, beta 100"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.6.1",
+      "tag": "@cityofzion/wallet-connect-sdk-core_v1.6.1",
+      "date": "Wed, 26 Jan 2022 19:25:44 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "minor updates to documentation"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.6.0",
+      "tag": "@cityofzion/wallet-connect-sdk-core_v1.6.0",
+      "date": "Sun, 19 Dec 2021 21:51:42 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "updates syntax to align with neo native types"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.5.0",
+      "tag": "@cityofzion/wallet-connect-sdk-core_v1.5.0",
+      "date": "Fri, 17 Dec 2021 20:05:03 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Updates invocation methods to simplify UX"
+          }
+        ],
+        "patch": [
+          {
+            "comment": "Adds authentication methods"
+          },
+          {
+            "comment": "Documentation Improvements"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.4.0",
+      "tag": "@cityofzion/wallet-connect-sdk-core_v1.4.0",
+      "date": "Fri, 05 Nov 2021 21:39:16 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "updates type for multiinvoke to hoist the signers"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.3.0",
+      "tag": "@cityofzion/wallet-connect-sdk-core_v1.3.0",
+      "date": "Tue, 26 Oct 2021 19:56:23 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "The format for declaring signers was modified, allowing to inform contracts and groups"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.2.1",
+      "tag": "@cityofzion/wallet-connect-sdk-core_v1.2.1",
+      "date": "Tue, 26 Oct 2021 17:25:29 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Adds the signature scope parameter to the wallet connect sdk."
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.2.0",
+      "tag": "@cityofzion/wallet-connect-sdk-core_v1.2.0",
+      "date": "Mon, 25 Oct 2021 16:11:07 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "introduces support for multi-invoke requests"
+          }
+        ]
+      }
+    }
+  ]
+}

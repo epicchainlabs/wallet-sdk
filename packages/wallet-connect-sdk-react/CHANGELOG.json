@@ -1,0 +1,221 @@
+{
+  "name": "@cityofzion/wallet-connect-sdk-react",
+  "entries": [
+    {
+      "version": "3.2.0",
+      "tag": "@cityofzion/wallet-connect-sdk-react_v3.2.0",
+      "date": "Mon, 27 Nov 2023 17:52:40 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Consume new way to initialize the core"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cityofzion/wallet-connect-sdk-core\" to `3.2.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "3.1.0",
+      "tag": "@cityofzion/wallet-connect-sdk-react_v3.1.0",
+      "date": "Mon, 06 Nov 2023 13:13:50 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "A new method has been added to calculate the fee for a request"
+          },
+          {
+            "comment": "New way to update the session consuming the new event emitter from core"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cityofzion/wallet-connect-sdk-core\" to `3.1.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "3.0.0",
+      "tag": "@cityofzion/wallet-connect-sdk-react_v3.0.0",
+      "date": "Thu, 28 Sep 2023 13:38:24 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Consume new version of core"
+          },
+          {
+            "comment": "Compatible with Neo3Invoker"
+          },
+          {
+            "comment": "Changes on `connect` method signature, the `methods` argument is now mandatory"
+          }
+        ],
+        "patch": [
+          {
+            "comment": "Adjust version number with the other packages"
+          },
+          {
+            "comment": "Consume the new version of core"
+          },
+          {
+            "comment": "update WcSdk with new neo3-signer/neon-signer for: new signMessage version to allow signing without salt"
+          },
+          {
+            "comment": "Consume new version of core"
+          },
+          {
+            "comment": "Adjusting version"
+          },
+          {
+            "comment": "Adjust version number with the other packages and consume new version of core"
+          },
+          {
+            "comment": "Adjust version number with the other packages"
+          },
+          {
+            "comment": "Consume new version of core"
+          },
+          {
+            "comment": "Consume new version of core"
+          },
+          {
+            "comment": "New encryption methods: The encrypt, decrypt, and encrypt From Array methods have been implemented"
+          },
+          {
+            "comment": "Consume new version of neon-dappkit"
+          },
+          {
+            "comment": "allow an optional scriptHash to be used to sign, if no account is provided the user selected account will be used"
+          },
+          {
+            "comment": "compatible with neo3-signer"
+          },
+          {
+            "comment": "Bump walletconnect library version"
+          }
+        ],
+        "major": [
+          {
+            "comment": "Changes on methods signatures"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cityofzion/wallet-connect-sdk-core\" to `3.0.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.4.1",
+      "tag": "@cityofzion/wallet-connect-sdk-react_v1.4.1",
+      "date": "Wed, 26 Jan 2022 19:25:44 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "updates to types"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cityofzion/wallet-connect-sdk-core\" from `^1.6.0` to `^1.6.1`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.4.0",
+      "tag": "@cityofzion/wallet-connect-sdk-react_v1.4.0",
+      "date": "Fri, 17 Dec 2021 20:05:03 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Updates to support the core changes"
+          }
+        ],
+        "patch": [
+          {
+            "comment": "Documentation Improvements"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cityofzion/wallet-connect-sdk-core\" from `^1.4.0` to `^1.5.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.3.0",
+      "tag": "@cityofzion/wallet-connect-sdk-react_v1.3.0",
+      "date": "Fri, 05 Nov 2021 21:39:16 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Makes the QR code render optional"
+          }
+        ],
+        "minor": [
+          {
+            "comment": "updates multi invoke type"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cityofzion/wallet-connect-sdk-core\" from `^1.3.0` to `^1.4.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.2.2",
+      "tag": "@cityofzion/wallet-connect-sdk-react_v1.2.2",
+      "date": "Tue, 26 Oct 2021 19:56:23 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cityofzion/wallet-connect-sdk-core\" from `^1.2.1` to `^1.3.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.2.1",
+      "tag": "@cityofzion/wallet-connect-sdk-react_v1.2.1",
+      "date": "Tue, 26 Oct 2021 17:25:29 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Adds signature scope to the react sdk."
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cityofzion/wallet-connect-sdk-core\" from `^1.2.0` to `^1.2.1`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.2.0",
+      "tag": "@cityofzion/wallet-connect-sdk-react_v1.2.0",
+      "date": "Mon, 25 Oct 2021 16:11:07 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "propogates support for multi-invoke requests"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cityofzion/wallet-connect-sdk-core\" from `^1.2.0` to `^1.2.0`"
+          }
+        ]
+      }
+    }
+  ]
+}

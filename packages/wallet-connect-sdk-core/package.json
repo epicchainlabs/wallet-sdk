@@ -1,0 +1,55 @@
+{
+  "name": "@cityofzion/wallet-connect-sdk-core",
+  "version": "3.2.0",
+  "description": "Wallet-Connect-SDK Core functionality",
+  "keywords": [
+    "wallet",
+    "wallet-connect",
+    "javascript",
+    "typescript",
+    "libraries"
+  ],
+  "author": "Gil Lopes Bueno <melanke.hc@gmail.com>",
+  "homepage": "https://github.com/CityOfZion/wallet-connect-sdk#readme",
+  "license": "MIT",
+  "main": "dist/index",
+  "directories": {
+    "dist": "dist",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CityOfZion/wallet-connect-sdk.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "docs": "typedoc",
+    "lint": "eslint .",
+    "format": "eslint --fix",
+    "publishDocs:dev": "aws s3 sync ./docs s3://marketing-neon-wallet/dev/wksdk/core --acl public-read",
+    "publishDocs:prod": "aws s3 sync ./docs s3://marketing-neon-wallet/prod/wksdk/core --acl public-read",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/CityOfZion/wallet-connect-sdk/issues"
+  },
+  "gitHead": "675a22457e2c967c68f0e2450359e6e687536655",
+  "dependencies": {
+    "@cityofzion/neon-core": "5.5.1",
+    "@walletconnect/sign-client": "2.7.3",
+    "@walletconnect/types": "2.7.3",
+    "@cityofzion/neon-dappkit-types": "0.3.0",
+    "typed-emitter": "^2.1.0"
+  },
+  "devDependencies": {
+    "typedoc": "^0.22.10",
+    "typescript": "^4.3.2",
+    "@typescript-eslint/eslint-plugin": "^6.8.0",
+    "@typescript-eslint/parser": "^6.8.0",
+    "eslint": "^8.51.0",
+    "typed-emitter": "^2.1.0"
+  }
+}

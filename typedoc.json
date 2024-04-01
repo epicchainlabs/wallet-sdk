@@ -1,0 +1,18 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "tsconfig": "tsconfig.json",
+  "entryPoints": [
+    "packages/wallet-connect-sdk-core/",
+    "packages/wallet-connect-sdk-react/",
+    "packages/wallet-connect-sdk-wallet-core/",
+    "packages/wallet-connect-sdk-wallet-react/src/index.tsx",
+    "packages/wallet-connect-sdk-svelte"
+  ],
+  "includeVersion": true,
+  "entryPointStrategy": "packages",
+  "out": "docs",
+  "exclude": ["**/dist/**"],
+  "compilerOptions": {
+    "jsx": "react"
+  }
+}

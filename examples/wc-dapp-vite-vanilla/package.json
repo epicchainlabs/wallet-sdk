@@ -1,0 +1,20 @@
+{
+  "name": "wc-dapp-vite-vanilla",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.4.0"
+  },
+  "dependencies": {
+    "@cityofzion/wallet-connect-sdk-core": "file:../../packages/wallet-connect-sdk-core"
+  },
+  "resolutions": {
+    "@cityofzion/wallet-connect-sdk-core": "file:../../packages/wallet-connect-sdk-core"
+  }
+}
