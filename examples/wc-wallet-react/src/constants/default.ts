@@ -22,9 +22,9 @@ export const DEFAULT_METHODS: Method[] = [
 export const DEFAULT_LOGGER = 'error'
 
 export const DEFAULT_APP_METADATA = {
-  name: 'CoZ Wallet Prototype',
+  name: 'EpicChain Wallet Prototype',
   description: 'WalletConnect integration Prototype',
-  url: 'https://coz.io/',
+  url: 'https://epic-chain.org/',
   icons: [
     'https://raw.githubusercontent.com/CityOfZion/visual-identity/develop/_CoZ%20Branding/_Logo/_Logo%20icon/_PNG%20200x178px/CoZ_Icon_DARKBLUE_200x178px.png',
   ],
@@ -32,8 +32,8 @@ export const DEFAULT_APP_METADATA = {
 
 export const DEFAULT_CHAIN: Chain = 'testnet'
 export const DEFAULT_NETWORKS: Record<Chain, { url: string | null; name: string }> = {
-  testnet: { url: 'https://testnet1.neo.coz.io:443', name: 'Testnet' },
-  mainnet: { url: 'http://seed1.neo.org:10332', name: 'Mainnet' },
+  testnet: { url: 'testnet1-seed.epic-chain.org:20111', name: 'Testnet' },
+  mainnet: { url: 'http://mainnet1-seed.epic-chain.org:10111', name: 'Mainnet' },
   private: { url: null, name: 'Private Network' },
 }
 export const DEFAULT_BLOCKCHAINS = ['neo3'] as const
